@@ -3,9 +3,9 @@
 ## Description
 This repository contains a **lean, three‑part workflow** for symbolic‑music generation:
 
-1. **MIDI → CSV extraction** — converts raw Standard MIDI Files into event‑level tables.  
-2. **Compact GPT model** — a 25 M‑parameter Transformer (RMSNorm + RoPE + SwiGLU) defined in <300 LOC.  
-3. **Inference & MIDI rebuild** — samples new token sequences and writes a valid `.mid`.
+1. **MIDI → CSV extraction** - converts raw Standard MIDI Files into event‑level tables.  
+2. **Compact GPT model** - a 25 M‑parameter Transformer (RMSNorm + RoPE + SwiGLU) defined in <300 LOC.  
+3. **Inference & MIDI rebuild** - samples new token sequences and writes a valid `.mid`.
 
 The code targets researchers and hobbyists who want an end‑to‑end example without the bloat of full‑scale music‑AI frameworks.
 
@@ -13,7 +13,7 @@ The code targets researchers and hobbyists who want an end‑to‑end example wi
 
 ## Features
 * **Event‑granular CSV** with absolute ticks, delta ticks, and all common MIDI fields.
-* **Lightweight architecture** — 6 decoder blocks, 8 heads, no external dependencies beyond PyTorch.
+* **Lightweight architecture** - 6 decoder blocks, 8 heads, no external dependencies beyond PyTorch.
 * **Temperature + top‑k sampling** for controllable creativity.
 * **Deterministic decoder** that guarantees note‑on/off pairing and adjustable tempo scaling.
 * Runs in real‑time on a single GPU (CPU also works for small pieces).
