@@ -33,6 +33,12 @@ The code targets researchers and hobbyists who want an end‑to‑end example wi
 
 ---
 
+## Future Improvements
+Full training script with mixed‑precision and gradient‑checkpointing.
+Velocity & duration tokens for richer expression.
+Multi‑track output and drum‑channel support.
+Edge‑case MIDI handling (sysex, NRPN, meta lyrics).
+
 ## How to Run (Python ≥ 3.10)
 ```bash
 # 1. Install deps
@@ -52,9 +58,5 @@ python src/generate.py \
   --seed       NOTE_ON_64 \
   --tokens     1500
 
-# Future Improvements
-Full training script with mixed‑precision and gradient‑checkpointing.
-Velocity & duration tokens for richer expression.
-Multi‑track output and drum‑channel support.
-Edge‑case MIDI handling (sysex, NRPN, meta lyrics).
+
 
