@@ -5,7 +5,7 @@ TEMPO_MULT  = 3.5      # 2.0 = half‑speed, 1.5 = ⅔ speed, 0.5 = double speed
 
 
 # Optional Knobs
-PPQ               = 960         
+PPQ               = 960
 MAX_SHIFT_BEATS   = 8           
 NOTE_VELOCITY     = 80
 FALLBACK_NOTE_LEN = 0.5        
