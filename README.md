@@ -23,9 +23,9 @@ The code targets researchers and hobbyists who want an end‑to‑end example wi
 ## File Structure
 | File | Purpose |
 |------|---------|
-| `src/extract_csv.py` | Walks a directory tree and dumps one CSV per MIDI file. |
-| `src/model.py` | Defines the GPT‑like Transformer used for inference. |
-| `src/generate.py` | Loads a checkpoint, samples tokens, converts them back to MIDI. |
+| `extract_csv.py` | Walks a directory tree and dumps one CSV per MIDI file. |
+| `model.py` | Defines the GPT‑like Transformer used for inference. |
+| `generate.py` | Loads a checkpoint, samples tokens, converts them back to MIDI. |
 | `requirements.txt` | Minimal Python dependencies. |
 | `README.md` | This document. |
 
