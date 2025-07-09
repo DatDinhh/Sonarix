@@ -1,5 +1,5 @@
 # Sonarix
-Sonarix is a lightweight Transformer pipeline that turns any folder of MIDI/CSV files into a playable, brand-new score — no DAW macros, no black-box APIs.
+Sonarix is a lightweight Transformer pipeline that turns any folder of MIDI/CSV files into a playable, brand-new score. No DAW macros, no black-box APIs.
 ## Description
 This repository contains a **lean, three‑part workflow** for symbolic‑music generation:
 
